@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url("/images/background.png");
+    background-repeat: repeat;
+}
+
+.banner1 img {
+    width: 100%;
+    height: auto;
+}
+
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: unset;
+    margin-bottom: -10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav-item .nav-link {
+    display: block;
+}
+
+#mySidenav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#News {
+    bottom: 52%;
+    background-color: lightgreen;
+}
+
+#Team {
+    bottom: 45%;
+    background-color: lightsalmon;
+}
+
+#Stats {
+    bottom: 38%;
+    background-color: lightskyblue;
+}
+
+#Video {
+    bottom: 31%;
+    background-color: lightcoral;
+}
+
+.container {
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: lightgrey;
+    height: auto;
+    font-family: 'Comic Neue', cursive;
+}
+
+.con1 {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    width: 210px;
+    max-width: 210px;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.con1:hover .overlay {
+    opacity: .8;
+}
+
+.text {
+    padding: 15px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.text ul {
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+    margin-top: 20px;
+    list-style: none;
+    font-family: 'Comic Neue', cursive;
+}
+
+.text ul li {
+    border-bottom: 1px rgb(20, 19, 19) solid;
+}

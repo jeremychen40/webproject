@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gamesky:CSGO Teams</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/cstyleStats.css">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="stats.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Home</a>
+            <!-- Links -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Brand/logo -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Call of Duty: MW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">League of Legend</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rainbow Six Siege</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                </ul>
+                <a class="navbar-brand" href="./images/weblogo.png">
+                    <div class="logo-image">
+                        <img src="./images/weblogo.png" class="img-fluid">
+                    </div>
+                </a>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search...">
+                    <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="banner1">
+            <img src="./images/banner.jpg" alt="csgobanner">
+        </div>
+        <!--banner-->
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="csgo.html" id="News">News</a>
+        <a href="csgo teams.html" id="Team">Team</a>
+        <a href="csgo stats.html" id="Stats">Stats</a>
+        <a href="#" id="Video">Video</a>
+
+    </div>
+    <div class="container">
+        <h1>Stats</h1>
+        <h5>Top ten points scored up until the end of Dec. 2019</h5>
+        <div id="chartContainer"></div>
+    </div>
+    <aside>
+
+    </aside>
+
+</body>
+
+</html>
