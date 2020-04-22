@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url("/images/background.png");
+    background-repeat: repeat;
+}
+
+.banner1 img {
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: unset;
+    margin-bottom: -10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav-item .nav-link {
+    display: block;
+    clear: both;
+}
+
+#mySidenav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+    z-index: 1;
+}
+
+#News {
+    bottom: 52%;
+    background-color: lightgreen;
+}
+
+#Team {
+    bottom: 45%;
+    background-color: lightsalmon;
+}
+
+#Stats {
+    bottom: 38%;
+    background-color: lightskyblue;
+}
+
+#Video {
+    bottom: 31%;
+    background-color: lightcoral;
+}
+
+.container {
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: lightgrey;
+    height: auto;
+    font-family: 'Comic Neue', cursive;
+}
+
+.vid1 {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+#chartContainer {
+    height: 600px;
+    width: 100%;
+}
+
+aside a {
+    display: block;
+    position: fixed;
+}
+
+.text {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
