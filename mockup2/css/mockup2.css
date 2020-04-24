@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lao", "Microsoft YaHei";
+}
+
+body {
+    background-color: #ffffff;
+    ;
+}
+
+.banner {
+    width: auto;
+    text-align: center;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    border-bottom: 20px solid black;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #b5b7b9;
+}
+
+#searchbar {
+    margin-left: 100px;
+}
+
+.navbar li {
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fdf8f7;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: black;
+    transition: 0.4s;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+h1 {
+    padding-left: 10px;
+    color: #da3028;
+}
+
+.container {
+    width: 100%;
+    background-color: #f3f6f4;
+    overflow: auto;
+    margin: 80px auto;
+}
+
+.title {
+    margin-left: 20%;
+}
+
+.content {
+    text-align: center;
+}
+
+.imgs {
+    display: inline-block;
+    margin: 10px 80px 50px;
+}
+
+.imgs img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.imgs h2 {
+    color: #da3028;
+    text-align: center;
+}
+
+.imgs a {
+    text-decoration: none;
+}
+
+.imgs a:hover {
+    text-decoration: underline;
+    color: #da3028;
+}
+
+.footer {
+    padding-top: 20px;
+    text-align: center;
+    background-color: pink;
+    height: 100px;
+    width: auto;
+}
